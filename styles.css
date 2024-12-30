@@ -1,0 +1,94 @@
+body {
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.text
+{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    margin: auto;
+    background-color: yellow;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.column
+{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.video
+{
+    padding-left: 50px;
+}
+
+.hquiz
+{
+    padding-left: 50px;
+}
+
+.quiz
+{
+    font-size: 24px;
+    padding-left: 50px;
+
+}
+
+.correct
+{
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.correct2
+{
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.hbaroque
+{
+    text-align: center;
+    font-size: 24px;
+    margin: auto;
+    background-color: gold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hclassical
+{
+    text-align: center;
+    font-size: 24px;
+    margin: auto;
+    background-color: orange;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hromantic
+{
+    text-align: center;
+    font-size: 24px;
+    margin: auto;
+    background-color: mediumpurple;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
